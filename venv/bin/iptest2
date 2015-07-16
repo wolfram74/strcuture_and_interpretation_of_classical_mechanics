@@ -1,0 +1,11 @@
+#!/Users/apprentice/Desktop/Projects/In_progress/Python_exploration/strcuture_and_interpretation_of_classical_mechanics/venv/bin/python
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from IPython.testing.iptestcontroller import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
